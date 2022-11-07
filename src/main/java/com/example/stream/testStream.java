@@ -4,7 +4,9 @@ import java.util.stream.Stream;
 
 public class testStream {
     public static void main(String[] args) {
-        Stream.of("a", "b");
+        Stream<String> a = Stream.of("a", "b");
+
+
     }
 
 }
